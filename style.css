@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#navbar {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar h1 {
+    margin: 0;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: #000;
+}
+
+#sadrzaj {
+    padding: 20px;
+    text-align: center;
+}
+
+.uvod h2 {
+    color: #ff8800;
+}
+
+.dugme {
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dugme:hover {
+    background-color: #ff6600;
+    transform: scale(1.05);
+}
+
+.ponuda ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ponuda li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.kontakt {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.kontakt label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.kontakt input,
+.kontakt textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.kontakt input:focus,
+.kontakt textarea:focus {
+    border-color: #ff8800;
+    outline: none;
+}
+
+.kontakt button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.kontakt button:hover {
+    background-color: #ff6600;
+}
